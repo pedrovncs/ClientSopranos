@@ -5,21 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5a47756-f7a7-4f5f-acbe-e27786dba8a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/callbacks/JsonCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/callbacks/StringCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/callbacks/CallBackEpisode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/callbacks/CallBackEpisodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/callbacks/CallBackSeason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/callbacks/CallBackSeasons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/models/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/models/Episode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/models/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/models/Season.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/services/EpisodesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/services/EpisodesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/services/SeasonsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/infnet/assessment/services/SeasonsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2eKT35Y8F9741n7NCDXiRGOpwHJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,10 +53,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pedro/IdeaProjects/ClientSopranos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -51,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711652067513</updated>
-      <workItem from="1711652068562" duration="1000" />
+      <workItem from="1711652068562" duration="11740000" />
+      <workItem from="1711732251376" duration="635000" />
     </task>
     <servers />
   </component>
