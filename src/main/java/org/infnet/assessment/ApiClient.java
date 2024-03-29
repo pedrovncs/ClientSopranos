@@ -6,11 +6,11 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    private Retrofit retrofit;
+    private final Retrofit retrofit;
     private static ApiClient instance = null;
 
     private ApiClient() {
-        String baseUrl = "http://localhost:8080/";
+        String baseUrl = "http://localhost:8081/";
         this.retrofit = new Retrofit.Builder()
                 .baseUrl(baseUrl)
                 .addConverterFactory(GsonConverterFactory.create())
@@ -32,3 +32,4 @@ public class ApiClient {
         return retrofit.create(SeasonsService.class);
     }
 }
+

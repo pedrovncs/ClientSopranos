@@ -30,9 +30,10 @@ public class Season {
 
     @Override
     public String toString() {
-        return "Season{" +
-                "season=" + season +
-                ", episodes=" + this.getEpisodes() +
-                '}';
+        StringBuilder text= new StringBuilder("\nSEASON" + season + "\n");
+        for (Episode episode : episodes) {
+            text.append(episode + "\n");
+        }
+        return text.toString();
     }
 }

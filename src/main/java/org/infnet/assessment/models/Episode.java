@@ -17,11 +17,11 @@ public class Episode {
         this.imdb_rating = imdb_rating;
     }
 
-    public int getEpisode_number() {
+    public int getEpisodeNumber() {
         return episode_number;
     }
 
-    public void setEpisode_number(int episode_number) {
+    public void setEpisodeNumber(int episode_number) {
         this.episode_number = episode_number;
     }
 
@@ -57,24 +57,21 @@ public class Episode {
         this.description = description;
     }
 
-    public double getImdb_rating() {
+    public double getRating() {
         return imdb_rating;
     }
 
-    public void setImdb_rating(double imdb_rating) {
+    public void setRating(double imdb_rating) {
         this.imdb_rating = imdb_rating;
     }
 
     @Override
     public String toString() {
-        return "Episode{" +
-                "episodeNumber=" + episode_number +
-                ", title='" + title + '\'' +
-                ", director='" + director + '\'' +
-                ", writer='" + writer + '\'' +
-                ", description='" + description + '\'' +
-                ", rating=" + imdb_rating +
-                '}';
+        return "Episode " + episode_number + ": " + title +
+                "\n  Director: " + director +
+                "\n  Writer: " + writer +
+                "\n  Description: " + description +
+                "\n  Rating: " + imdb_rating;
     }
 }
 

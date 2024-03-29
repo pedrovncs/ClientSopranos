@@ -17,7 +17,7 @@ public interface EpisodesService {
     Call<Episode> createEpisode(@Path("season_number") int season_number, @Body Episode episode);
 
     @DELETE("/seasons/{season_number}/episodes/{episode_number}")
-    Call<Void> deleteEpisode(@Path("season_number") int season_number, @Path("episode_number") int episode_number);
+    Call<Episode> deleteEpisode(@Path("season_number") int season_number, @Path("episode_number") int episode_number);
 
     @PUT("/seasons/{season_number}/episodes/{episode_number}")
     Call<Episode> updateEpisode(@Path("season_number") int season_number, @Path("episode_number") int episode_number, @Body Episode episode);

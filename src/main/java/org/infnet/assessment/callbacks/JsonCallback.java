@@ -20,7 +20,7 @@ public class JsonCallback<T> implements Callback<T> {
                 System.out.println(msg + responseBody);
             }
         } else {
-            System.out.println("Erro na requisição: " + response.message());
+            System.out.println("Erro Código " + response.code() + " " + response.message());
         }
     }
 
